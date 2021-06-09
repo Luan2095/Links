@@ -1,0 +1,106 @@
+*{
+  font-family: 'Noto Sans SC', sans-serif;
+  box-sizing: border-box;
+  font-size: 100%;
+
+}
+body{
+  background: #8360c3;
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
+    background: linear-gradient(to right, #2ebf91, #8360c3);
+}
+.links{
+  text-align: center;
+
+}
+
+.perfil{
+
+  border-radius:100%;
+  width: 23%;
+}
+button{
+  border-radius: 50px;
+  width: 40%;
+  margin: 5px;
+  padding: 5px;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+  
+}
+.logo-twitter{
+  float:center;
+  margin-left:25px ;
+  max-width: 20px;
+  max-height: 20px 
+  
+ 
+    }
+.logo-instagram{
+  float:center;
+  margin-left: 25px;
+  max-width: 20px; 
+  max-height: 20px 
+  
+}
+.logo-whatsapp{
+  float:center;
+  margin-left: 25px;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.logo-github{
+float:center;
+margin-left: 25px;
+max-width: 20px;
+max-height: 20px;
+
+
+}
+
+.logo-linkedln{
+  float:center;
+  margin-left: 25px;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+/*  mobile */
+@media screen and (max-width: 600px) {
+.perfil{
+  Width: 65%;
+}
+.links{
+  text-align: center;
+}
+button{
+  width: 90%;
+
+  
+  
+}
+.logo-twitter{
+  float:center;
+ 
+    }
+.logo-instagram{
+  float:center;
+  margin-left: 25px;
+  
+}
+.logo-whatsapp{
+  float:center;
+  margin-left: 25px;
+}
+
+.logo-github{
+float:center;
+margin-left: 5px;
+
+}
+
+}
